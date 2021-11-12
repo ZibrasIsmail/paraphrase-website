@@ -112,7 +112,7 @@ export default function Paraphraser(props) {
           <main>
             <section className="py-4 mx-auto border border-gray-100 rounded-lg shadow-sm max-w-7xl sm:px-6 lg:px-4">
               <div className="flex items-center justify-center">
-                {/* <button
+                <button
                   className={`inline-block rounded-lg font-medium leading-none py-2 px-3 focus:outline-none text-gray-500 hover:text-blue-600 focus:text-blue-600 ${
                     paraphraseMode === "standard"
                       ? "bg-blue-50 text-blue-700"
@@ -141,7 +141,7 @@ export default function Paraphraser(props) {
                   onClick={() => setParaphraseMode("creative")}
                 >
                   Level 3
-                </button> */}
+                </button>
               </div>
               <HideShow show={paraphraseMode === "standard"}>
                 <div className="p-2 mt-2 font-semibold text-center text-blue-700 rounded-lg bg-blue-50">
